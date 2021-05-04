@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    char name[]="devansh",targett[]="gevansh";
+    strcat(targett,name);
+    printf("%s\n",name);
+    printf("%s\n",targett);
+    return 0;
+}
